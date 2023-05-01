@@ -9,7 +9,6 @@ import initialContacts from './contacts.json';
 
 export class App extends Component {
   state = {
-    //contacts: [],
     contacts: initialContacts,
     filter: '',
   };
